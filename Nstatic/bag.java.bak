@@ -1,0 +1,6 @@
+class  bag
+{
+	String author;
+	double price;
+	int edition;
+}

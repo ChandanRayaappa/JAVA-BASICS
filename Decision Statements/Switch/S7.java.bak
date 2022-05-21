@@ -1,0 +1,22 @@
+class S7 
+{
+	public static void main(String[] args) 
+	{
+		char ch='E';
+		switch (ch)
+		{
+		case('A'):System.out.println(ch+" is vowel");
+		case('E'):System.out.println(ch+" is vowel");
+		case('I'):System.out.println(ch+" is vowel");
+		case('O'):System.out.println(ch+" is vowel");
+		case('U'):System.out.println(ch+" is vowel");
+		case('a'):System.out.println(ch+" is vowel");
+		case('e'):System.out.println(ch+" is vowel");
+		case('i'):System.out.println(ch+" is vowel");
+		case('o'):System.out.println(ch+" is vowel");
+		case('u'):System.out.println(ch+" is vowel");
+		break;
+		default:System.out.println(ch+" is consonant");
+		}
+	}
+}

@@ -1,0 +1,27 @@
+class  bag1driver
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("From Main");
+		bag1 a=new bag1();
+		a.name="Dell";
+		a.color="Black";
+		a.price=500;
+
+		bag1 a1=new bag1();
+		a1.name="HP";
+		a1.color="Gray";
+		a1.price=600;
+
+		bag1 a2=new bag1();
+		a2.name="HP";
+		a2.color="Gray";
+		a2.price=600;
+		System.out.println("bag name: "+a.name);
+		System.out.println("Bag color: "+a.color);
+		System.out.println("BAg price: "+a.price);
+		System.out.println("bag name: "+a1.name);
+		System.out.println("Bag color: "+a1.color);
+		System.out.println("BAg price: "+a1.price);
+	}
+}

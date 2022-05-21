@@ -1,0 +1,9 @@
+class R1  
+{
+	public static void main(String[] args) 
+	{
+		int a;
+		a=s20;
+		System.out.println(a);
+	}
+}

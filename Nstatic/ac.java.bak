@@ -1,0 +1,6 @@
+class ac
+{
+	String compay;
+	String color;
+	double price;
+}

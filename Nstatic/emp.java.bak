@@ -1,0 +1,6 @@
+class emp
+{
+	String name;
+	double mobile;
+	int age;
+}

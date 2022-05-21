@@ -1,0 +1,12 @@
+class Milk 
+{
+	public static void main(String[] args) 
+	{
+		int contn=2500;
+		int glass_vol=150;
+		double nos_of_glass=contn/glass_vol;
+		System.out.println("Container capacity: "+contn);
+		System.out.println("One glass vol is: "+glass_vol);
+		System.out.println("Number of glass required: "+nos_of_glass);
+	}
+}

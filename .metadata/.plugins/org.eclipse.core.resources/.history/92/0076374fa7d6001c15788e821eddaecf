@@ -1,0 +1,22 @@
+package datadriventesting;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Excel {
+
+	public static void main(String[] args) {
+		String sheetName = "Reg";
+		int rowNumber = 1;
+		
+		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.get("https://shop-global.malaicha.com/registration");
+		
+		
+	}
+}

@@ -1,0 +1,26 @@
+package excel_datadriven;
+
+public class Malachai {
+	public static void main(String[] args) {
+		String sheetName = "Reg";
+		int rowNumber = 1;
+		String name = ExcelLibrary.getStringData(sheetName, rowNumber, 0);
+		String lastName = ExcelLibrary.getStringData(sheetName, rowNumber, 1);
+		String email = ExcelLibrary.getStringData(sheetName, rowNumber, 2);
+		String number = ExcelLibrary.getStringData(sheetName, rowNumber, 3);
+		String country = ExcelLibrary.getStringData(sheetName, rowNumber, 4);
+		String password = ExcelLibrary.getStringData(sheetName, rowNumber, 5);
+		
+		System.out.println(name);
+		System.out.println(lastName);
+		System.out.println(email);
+		System.out.println(number);
+		System.out.println(country);
+		System.out.println(password);
+//		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+//		WebDriver driver = new ChromeDriver();
+//		driver.manage().window().maximize();
+//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+//		driver.get("https://shop-global.malaicha.com/registration");
+	}
+}

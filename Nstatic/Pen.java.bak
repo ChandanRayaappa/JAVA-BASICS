@@ -1,0 +1,6 @@
+class  Pen
+{
+	int id;
+	String color;
+	static double price;
+}

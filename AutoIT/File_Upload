@@ -1,0 +1,4 @@
+sleep(5000)
+send("F:\QSP\IT RESUMES\Manual 1.docx")
+sleep(5000)
+send("{ENTER}")
